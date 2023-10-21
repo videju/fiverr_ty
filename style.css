@@ -134,7 +134,9 @@ a {
 
 /* Navigation for mobile devices */
 @media screen and (max-width: 1118px) {
-  
+  .nav__logo img{
+   height: 20vh;
+  }
   .nav__menu {
     position: absolute;
     left: 0;
@@ -152,7 +154,7 @@ a {
   .nav__list {
     background-color: var(--black-color);
     padding-top: 2rem;
-    margin-top:12vh
+    margin-top:5.5vh
   }
 }
 
@@ -254,7 +256,7 @@ a {
 /* For small devices */
 @media screen and (max-width: 340px) {
   .nav__logo{
-    width: 10%;
+    width: 20%;
     }
   .container {
     margin-inline: 1rem;
@@ -276,11 +278,12 @@ a {
     display: flex;
     justify-content: space-between;
   }
-  .nav__toggle {
+  .nav__toggle i {
+    
     display: none;
   }
   .nav__list {
-    margin-top: 4%;
+    margin-top: 0%;
     height: 100%;
     display: flex;
     column-gap: 5rem;
@@ -350,7 +353,7 @@ a {
 /* /////////////////////////// */
 .nav__logo img{
     width: 100%;
-    width: 7vw;
+    width: 20vw;
     margin-top: 8vh;
     margin-left:-1vw;
     height: 50%;
